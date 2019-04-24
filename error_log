@@ -1,0 +1,243 @@
+[19-Mar-2019 18:35:19 UTC] PHP Warning:  strpos(): Empty needle in /home1/actasixs/public_html/wp-includes/functions.php on line 4360
+[19-Mar-2019 18:35:20 UTC] PHP Warning:  strpos(): Empty needle in /home1/actasixs/public_html/wp-includes/functions.php on line 4360
+[19-Mar-2019 18:35:21 UTC] mojo_plugin_activated
+[19-Mar-2019 19:08:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /home1/actasixs/public_html/wp-content/themes/acta/header.php:75
+Stack trace:
+#0 /home1/actasixs/public_html/wp-includes/template.php(704): require_once()
+#1 /home1/actasixs/public_html/wp-includes/template.php(653): load_template('/home1/actasixs...', true)
+#2 /home1/actasixs/public_html/wp-includes/general-template.php(41): locate_template(Array, true)
+#3 /home1/actasixs/public_html/wp-content/themes/acta/index.php(14): get_header()
+#4 /home1/actasixs/public_html/wp-includes/template-loader.php(77): include('/home1/actasixs...')
+#5 /home1/actasixs/public_html/wp-blog-header.php(19): require_once('/home1/actasixs...')
+#6 /home1/actasixs/public_html/index.php(17): require('/home1/actasixs...')
+#7 {main}
+  thrown in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 75
+[20-Mar-2019 20:24:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[21-Mar-2019 11:23:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[22-Mar-2019 07:08:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[24-Mar-2019 00:29:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[24-Mar-2019 15:20:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[26-Mar-2019 10:36:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[27-Mar-2019 21:18:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[28-Mar-2019 17:37:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[30-Mar-2019 08:20:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[01-Apr-2019 06:21:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[01-Apr-2019 15:39:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[02-Apr-2019 18:32:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[05-Apr-2019 06:01:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[08-Apr-2019 20:47:34 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 180
+[08-Apr-2019 20:47:39 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 180
+[08-Apr-2019 20:47:41 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 180
+[08-Apr-2019 20:47:42 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 180
+[08-Apr-2019 20:47:48 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 180
+[08-Apr-2019 20:47:51 UTC] PHP Parse error:  syntax error, unexpected '>' in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 180
+[08-Apr-2019 22:38:44 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 181
+[08-Apr-2019 22:38:47 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 181
+[08-Apr-2019 22:39:09 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 181
+[08-Apr-2019 22:39:13 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 181
+[08-Apr-2019 22:39:43 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 181
+[09-Apr-2019 03:26:47 UTC] PHP Parse error:  syntax error, unexpected end of file in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 196
+[14-Apr-2019 12:45:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[15-Apr-2019 15:05:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[15-Apr-2019 17:55:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[15-Apr-2019 21:56:38 UTC] PHP Parse error:  syntax error, unexpected ')' in /home1/actasixs/public_html/wp-content/themes/acta/header.php on line 112
+[16-Apr-2019 05:30:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[17-Apr-2019 13:04:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[18-Apr-2019 09:21:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[19-Apr-2019 18:22:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[20-Apr-2019 23:23:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_user_logged_in() in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php:721
+Stack trace:
+#0 /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php(760): Endurance_Page_Cache->is_cachable()
+#1 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(286): Endurance_Page_Cache->finish('')
+#2 /home1/actasixs/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#3 /home1/actasixs/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#4 /home1/actasixs/public_html/wp-includes/load.php(788): do_action('shutdown')
+#5 [internal function]: shutdown_action_hook()
+#6 {main}
+  thrown in /home1/actasixs/public_html/wp-content/mu-plugins/endurance-page-cache.php on line 721
+[23-Apr-2019 18:45:35 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/actasixs/public_html/wp-content/themes/acta/footer.php on line 31
+[23-Apr-2019 18:45:41 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/actasixs/public_html/wp-content/themes/acta/footer.php on line 31
+[23-Apr-2019 18:45:42 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/actasixs/public_html/wp-content/themes/acta/footer.php on line 31
+[23-Apr-2019 18:47:04 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/actasixs/public_html/wp-content/themes/acta/footer.php on line 31
+[23-Apr-2019 18:48:46 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/actasixs/public_html/wp-content/themes/acta/footer.php on line 31
+[23-Apr-2019 18:49:48 UTC] PHP Parse error:  syntax error, unexpected '<' in /home1/actasixs/public_html/wp-content/themes/acta/footer.php on line 31
